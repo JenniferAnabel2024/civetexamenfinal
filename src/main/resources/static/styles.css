@@ -265,11 +265,11 @@ main {
     max-width: 100%;
 }
 
-/* HERO CONTENT - ALINEADO A LA DERECHA */
+/* HERO CONTENT - CENTRADO EN LA PANTALLA */
 .hero-content {
     flex: 1;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     padding: 2rem 5rem;
     height: 100%;
@@ -278,7 +278,7 @@ main {
     z-index: 2;
 }
 
-/* TEXTO A LA DERECHA CON EFECTOS ARTÍSTICOS */
+/* TEXTO CENTRADO CON EFECTOS ARTÍSTICOS */
 .hero-text {
     max-width: 800px;
     min-height: 600px;
@@ -288,7 +288,6 @@ main {
     text-align: center; /* Centrado como en Word */
     padding: 4rem 4rem;
     border-radius: 25px;
-    margin-right: 80px;
     background: linear-gradient(135deg, 
         rgba(50, 205, 50, 0.18) 0%, 
         rgba(46, 184, 46, 0.12) 50%, 
